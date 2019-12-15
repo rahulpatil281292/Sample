@@ -55,7 +55,7 @@ class CameraController: UIViewController, AVCapturePhotoCaptureDelegate, UIViewC
         return true
     }
     
-    fileprivate func setupHUD() {
+    private func setupHUD() {
         view.addSubview(capturePhotoButton)
         capturePhotoButton.anchor(top: nil, left: nil, bottom: view.bottomAnchor, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: 24, paddingRight: 0, width: 80, height: 80)
         capturePhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
