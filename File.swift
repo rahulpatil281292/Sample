@@ -6,7 +6,7 @@
 //
 
 import Foundation
-fileprivate let personNameLabel: UILabel = {
+private var personNameLabel: UILabel = {
     let label = UILabel()
     label.backgroundColor = .gray
     label.text = "Please click here."
