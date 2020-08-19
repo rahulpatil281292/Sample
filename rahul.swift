@@ -11,13 +11,16 @@
 
 
 class Person {
+    var name: String?
+    init(name: String) {
+        self.name = name
+    }
+}
+
+struct Male {
     
 }
 
-class Male {
-    
-}
-
-class Female {
+struct Female {
     
 }
